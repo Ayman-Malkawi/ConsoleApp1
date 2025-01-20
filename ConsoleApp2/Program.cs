@@ -5,26 +5,46 @@ using System.Threading.Tasks;
 using System;
 using System.Runtime.Remoting.Channels;
 using System.ComponentModel.Design.Serialization;
+using System.Security.Cryptography.X509Certificates;
+using ConsoleApp2;
 namespace ConsoleApp2
 {
-    internal class Program
+
+    class sequre
+
     {
-     
-
-        //static int num5(int min, int h)
-        //{
-        //    return (h * 60) + min;
-        //}
+        public int width, height;
+        public void print() { Console.WriteLine(width * height); }
 
 
 
-        //static double number5(double x)
-        //{
-        //    return x * 0.621371;
-        //}
-        static void Main(string[] args)
+
+
+    }
+
+}
+internal class Program
+{
+
+
+
+    //static int num5(int min, int h)
+    //{
+    //    return (h * 60) + min;
+    //}
+
+
+
+    //static double number5(double x)
+    //{
+    //    return x * 0.621371;
+    //}
+    static void Main(string[] args)
+    {
         {
-
+            //sequre s1 = new sequre();
+            //s1.width = 200;
+            //Console.WriteLine(s1.width);    
             //task1
             //double myDouble;
             //myDouble = Convert.ToDouble(Console.ReadLine());
@@ -145,17 +165,34 @@ namespace ConsoleApp2
             //Console.WriteLine("the middle num is : " + (num1+num2+num3-min-max));
 
 
+
+            //Console.WriteLine(" considered vowels is :");
+            //string m = Console.ReadLine();
+            //string st1 = "a, e, i, o, u";
+            //int num5 = 0;
+            //for (int i = 0; i < st1.Length; i++) {
+            //    if (.Contains(st1[i])) {
+
+            //        Console.WriteLine(num5);
+
+
+
+
+
+
         }
-
-
     }
 
 
 
-    }
 
 
-       
-       
-       
+
+
+}
+
+
+
+
+
 
