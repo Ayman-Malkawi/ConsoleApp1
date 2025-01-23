@@ -31,6 +31,9 @@ namespace ConsoleApp7
 
 
         }
+
+
+
         public int NumberOfDoors {  get; set; }
 
 
